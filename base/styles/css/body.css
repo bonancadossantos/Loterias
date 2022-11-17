@@ -1,0 +1,21 @@
+.lotofacil{
+    font-family: 'Acme', sans-serif;
+    font-weight: normal;
+    /*padding: 3px;*/
+    background-color: rgba(150, 0, 140, 0.1);
+    display: block;
+    color: #000000;
+    border-radius:2px;
+    margin: 10px;
+    height: 600px;
+}
+.quina{
+    font-family: 'Acme', sans-serif;
+    font-weight: normal;
+    /*padding: 3px;*/
+    background-color: rgba(42, 1, 189, 0.1);
+    display: block;
+    color: #000000;
+    border-radius:2px;
+    margin: 10px;
+}

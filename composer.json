@@ -1,0 +1,19 @@
+{
+    "name": "adailton/loterias",
+    "description": "Projeto de leitura, análise e criação de volantes de algumas loterias presentes nele",
+    "license": "Disponível no GitHub do projeto",
+    "autoload": {
+        "psr-4": {
+            "core\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adailton dos Santos Silva",
+            "email": "bonancadossantos@gmail.com"
+        }
+    ],
+    "require": {
+        
+    }
+}
