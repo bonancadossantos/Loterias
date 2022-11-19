@@ -3,16 +3,18 @@
 namespace core\controller\pages;
 
 use core\controller\views\Views;
+use core\controller\models\Model;
 
-class Home{
+class Home extends Page{
     /**
      * Responsável por retornar o conteúdo do html da página inicial
      * @return string
      */
     public static function getHome(){
-        return Views::render('layouts/home',[
-            'titulo' => 'Palpites do Bonança v1.0',
-            'site' => 'https://palpitesdobonanca.com.br/'
+        $model = new Model();
+        $content = Views::render('layouts/home',[
+            'header' => "$model->area - Resultados, análises e criação de jogos",
         ]);
+        return parent::getPage('Grupo AD Bonança',$content);
     }
 }
