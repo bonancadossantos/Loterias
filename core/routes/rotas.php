@@ -2,7 +2,7 @@
 
 namespace core\routes;
 
-use core\controller\class\Controller;
+use core\controllers\class\Controller;
 
 class Rotas extends Controller
 {

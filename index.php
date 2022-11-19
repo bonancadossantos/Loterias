@@ -1,9 +1,12 @@
 <?php
-
 require_once __DIR__ . '/vendor/autoload.php';
 
+use core\controller\pages\Home;
+
+echo Home::getHome();exit;
+
 use core\controller\class\Loterias;
-use core\controller\class\Controller;
+use core\controllers\class\Controller;
 use core\routes\Rotas;
 use core\model\Model;
 
